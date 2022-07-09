@@ -1,0 +1,104 @@
+/* Genel olarak kullanılacak özellikler için classlar oluşutuyoruz */
+
+.text-center{
+    text-align: center; /* metini ortalar */
+}
+
+
+/* Metin boyutu için oluşturduğumz classlar */
+.heading-small{
+
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+
+    font-size: 1.5rem;
+}
+
+.heading-big{
+
+    font-size: 1.75rem;
+}
+
+/* bg Renk classı */
+
+.bg-orange{
+margin:3px;
+    background-color: #b8b1aa;
+    border-radius: 10px;
+}
+.bg-dark-blue{
+    background:#062e51;
+}
+
+.bg-light-blue{
+    background:#326ea2;
+}
+
+/* Conteiner kuruyoruz */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text-style {
+
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-style2{
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-style3{
+
+    font-family: 'Gentium Book Plus', serif;
+    opacity: 80%;
+}
+
+.btn{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    }
+.btn-primary{
+    background:#062e51;
+
+}
+.btn-primary:hover{
+  
+        color: #fff;
+        background-color:#e67e22;
+
+}
+
+#training {
+    
+    color: #fff;
+    padding: 1rem;
+}
+
+#training .items{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#training .items .item{
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    padding:0.5rem;
+}
+
+#training .items .item:hover{
+    border: 2px solid black;
+    border-radius:7px;
+background-color: #e67e22;
+   color: #fff;
+}

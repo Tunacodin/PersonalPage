@@ -1,0 +1,119 @@
+
+
+
+/* tüm elemanları seçtik ve hepsine başlangıç değerleri atadık */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+    
+}
+
+
+
+
+/* vereceğimiz linkler için yazdığımız özellikler */
+a{
+   
+text-decoration: none;
+color: #fff;
+}
+html {
+    background-color: #edfcf5;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navigation Bar */
+
+#navbar {
+
+    color: rgb(164, 164, 164);
+    display: flex; /* divler yan yana geçiyor */
+    justify-content: space-between;/* divler arasına boşluk koyar */
+    align-items: center;
+    padding: 0 0.75rem;
+    border-radius: 0.5rem;    
+    height:55px;
+}
+
+#navbar ul { /* sıraya göre class ismi veriyoruz */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar ul li { /* sıraya göre class ismi veriyoruz */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;;
+    padding:0.5rem;
+
+}
+
+#navbar ul li:hover{
+   
+    color:#062e51;
+    background-color:gray;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.vr {
+    border-left: 3px solid #e67e22;
+    border-radius: 6px;
+    height: auto;
+  
+  }
+
+  /* Home Section */
+
+  #home {
+    padding: 0.5rem;
+margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+  }
+
+  #home img {
+    max-width:100% ;
+    height: auto;
+    border-radius:100%;
+  }
+
+#home .name h2 {
+    margin-bottom:0.75rem;
+}
+
+#home .name p {
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+#home a {
+    text-align: center;
+    width: 1100px;
+margin-top: 0.5rem;
+padding: 0.5rem;
+border-radius: 10px;
+
+}
+
+#home a:hover{
+    color: #fff;
+    background-color:#e67e22;
+    margin: 0.4rem;
+    padding: 0.4rem;
+
+   
+}
+
